@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ This\ class\ is\ the\ world\ in\ which\ the\ simulation\ takes\ place\r\n\ \r\n\ @author\ Bennet\ Ranft\ \r\n\ @version\ 11.06.2021\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment2.params=
+comment2.target=void\ setDefaultSpeed()
+comment2.text=\r\n\ Sets\ the\ speed\ of\ the\ simulation\ to\ Config.DEFAULT_SPEED\r\n
+comment3.params=
+comment3.target=void\ populate()
+comment3.text=\r\n\ Spawns\ persons\ in\ the\ world\r\n
+comment4.params=
+comment4.target=void\ counters()
+comment4.text=\r\n\ Places\ the\ counters\ in\ the\ world\r\n
+comment5.params=
+comment5.target=int\ posx()
+comment5.text=\r\n\ Returns\ a\ x\ position\r\n\ @return\ a\ number\ between\ 0\ and\ Config.WORLD_WIDTH\r\n
+comment6.params=
+comment6.target=int\ posy()
+comment6.text=\r\n\ Returns\ a\ y\ position\r\n\ @return\ a\ number\ between\ 0\ and\ Config.WORLD_HEIGHT\r\n
+numComments=7
