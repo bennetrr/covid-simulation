@@ -49,17 +49,20 @@ public class MyWorld extends World {
      * Places the counters in the world
      */
     private void counters() {
-        healthCount = new Counter("Gesunde: ", "counter_green.png");
+        healthCount = new Counter("Healthy: ", "counter_green.png");
         immuneCount = new Counter("Immune: ", "counter_blue.png");
-        sickCount = new Counter("Kranke: ", "counter_red.png");
-        deathCount = new Counter("Tote: ", "counter_gray.png");
-        infectedCount = new Counter("Infizierte: ", "counter_orange.png");
+        sickCount = new Counter("Sick: ", "counter_red.png");
+        deathCount = new Counter("Death: ", "counter_gray.png");
+        infectedCount = new Counter("Infected: ", "counter_orange.png");
 
         addObject(healthCount, 56, 14);
         addObject(infectedCount, 179, 14);
         addObject(sickCount, 296, 14);
         addObject(immuneCount, 410, 14);
         addObject(deathCount, 521, 14);
+        
+        addObject(new Label("CovidSimulation", 30), Config.WORLD_WIDTH - 100, Config.WORLD_HEIGHT - 30);
+        addObject(new Label("by bennetr", 25), Config.WORLD_WIDTH - 60, Config.WORLD_HEIGHT - 10);
 
         healthCount.setValue(Config.SPAWNCOUNT_HEALTHY);
         infectedCount.setValue(Config.SPAWNCOUNT_INFECTED);

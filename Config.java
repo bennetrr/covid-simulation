@@ -1,5 +1,6 @@
 /**
  * This class is only for configuration.
+ * For more Information see https://github.com/bennetrr/CovidSimulation#konfiguration
  * 
  * @author Bennet Ranft 
  * @version 11.06.2021
