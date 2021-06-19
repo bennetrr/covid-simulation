@@ -165,3 +165,8 @@ Eigenschaftsname: DO_QUARANTINE<br>
 Beschreibung: Ob kranke Personen in Quarantäne gesteckt werden sollen.<br>
 Standardwert: false<br>
 Richtlinien: `true` (ja) oder `false` (nein)<br>
+
+### Verlauf der Simulation
+Am Anfang der Simulation werden die Personen mit einem zufälligen Alter in die Welt gesetzt. Dabei sind eine oder mehrere (siehe Konfiguration) infizierte Personen dabei. Wenn Sie die Simulation starten, laufen die Personen auf der Welt hin und her. Dabei stecken die Infizierten gesunde Personen an, welche dann selbst infiziert werden. Nach einer bestimmten Zeit, der Inkubationszeit, werden die infizierten dann entweder immun oder krank. Wenn Quarantäne aktiviert ist, können sich kranke Personen nicht mehr bewegen und auch niemanden mehr anstecken, was die infizierten aber sehr wohl können. Nach einer bestimmten Zeit krank-sein können die Personen entweder immun werden oder sterben.
+
+### Visualisierung
