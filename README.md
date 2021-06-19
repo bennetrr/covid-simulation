@@ -36,7 +36,6 @@ Nur der Wert darf geändert werden. Der Rest gehört mit zum System **und darf n
 > WARNUNG!
 > Achten Sie darauf, dass Sie bei Zahlen, die im Standardwert als Kommazahlen angegeben werden, auch bei ganzen Zahlen `.0` anhängen. Außerdem muss für statt einem Dezimalkomma einen Dezimalpunkt verwenden!
 
-<br>
 #### Abschnitt: Spawning
 Eigenschaftsname: WORLD_HEIGHT<br>
 Beschreibung: Die Höhe der Welt.<br>
