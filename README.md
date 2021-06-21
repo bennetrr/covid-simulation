@@ -174,5 +174,5 @@ Zum Start der Simulation werden oben in der Welt die Counter eingerichtet, an de
 Außerdem gibt es eine Meldung im Terminalfenster, wenn eine Person infiziert oder gesund wird, erkrankt usw. Das Terminalfenster sollte automatisch aufgehen, wenn die Simulation gestartet wird.
 
 ## Schlusswort
-Diese Simulation besteht hauptsächlich darin, an der Konfiguration rumzustellen und zu gucken, was bei welchem Parameter passiert und wie sich der Virus ausbreitet. Man kann auch das Projekt zwei mal nebeneinander starten (dazu einfach den Ordner mit dem Projekt kopieren und in Greenfoot öffnen) und die Verläufe vergleichen.
+Mit dieser Simulation lässt sich der Einfluss der unterschiedlichen Parameter, wie z. B. Alter, Inkubationszeit und Infektionsschutzmaßnahmen, auf den Verlauf der Pandemie untersuchen. Man kann auch das Projekt zwei mal nebeneinander starten (dazu einfach den Ordner mit dem Projekt kopieren und in Greenfoot öffnen) und die Verläufe vergleichen.
 Die Simulation wurde im Rahmen des Informatikunterrichts in der Schule programmiert. Wenn Sie einen Fehler bei der Simulation feststellen, können Sie ihn gerne hier bei GitHub im Issue Tracker melden. Gleiches gilt auch für Funktionsvorschläge. Aber nein, eine Config-UI wird es nicht geben :D
