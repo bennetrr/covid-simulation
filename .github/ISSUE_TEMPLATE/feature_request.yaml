@@ -1,0 +1,19 @@
+name: Feature Request
+description: Request a feature for this plugin
+labels: 'feature'
+body:
+- type: markdown
+  attributes:
+    value: Thanks for taking the time to fill out this feature request form! Please answer a few questions to make us understand what you like to have in this plugin.
+- type: textarea
+  id: problem-related
+  attributes:
+    label: Is your feature related to a problem?
+    description: Describe the problem. Also write about workarounds and other solutions you may used.
+- type: textarea
+  id: feature-desc
+  attributes:
+    label: Describe your feature
+    description: Describe the feature you want in the plugin.
+  validations:
+    required: true
