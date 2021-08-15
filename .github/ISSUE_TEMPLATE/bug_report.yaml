@@ -1,6 +1,7 @@
 name: Fehlerbericht
 description: Melden Sie uns einen Fehler, um uns dabei zu helfen, das Programm fehlerfrei zu machen.
-labels: 'bug'
+labels: bug
+assignees: bennetrr
 body:
 - type: markdown
   attributes:
