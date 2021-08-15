@@ -1,19 +1,18 @@
-name: Feature Request
-description: Request a feature for this plugin
+name: Funktion vorschlagen
+description: Schlagen Sie eine Funktion für dieses Programm vor.
 labels: 'feature'
 body:
 - type: markdown
   attributes:
-    value: Thanks for taking the time to fill out this feature request form! Please answer a few questions to make us understand what you like to have in this plugin.
-- type: textarea
-  id: problem-related
-  attributes:
-    label: Is your feature related to a problem?
-    description: Describe the problem. Also write about workarounds and other solutions you may used.
+    value: Vielen Dank, dass Sie sich die Zeit nehmen, dieses Formular auszufüllen! Bitte beantworten Sie ein paar Fragen, damit wir verstehen, was Sie in diesem Programm haben möchten.
 - type: textarea
   id: feature-desc
   attributes:
-    label: Describe your feature
-    description: Describe the feature you want in the plugin.
+    label: Beschreiben Sie die Funktion
   validations:
     required: true
+- type: textarea
+  id: problem-related
+  attributes:
+    label: Bezieht sich die gewünschte Funktion auf ein Problem?
+    description: Beschreiben Sie das Problem. Gehen Sie auch auf Workarounds und andere Lösungen ein, die Sie genutzt haben.
