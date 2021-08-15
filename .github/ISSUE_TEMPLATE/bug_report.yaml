@@ -1,50 +1,50 @@
-name: Bug report
-description: Create a report to help us make the plugin bug free
+name: Fehlerbericht
+description: Melden Sie uns einen Fehler, um uns dabei zu helfen, das Programm fehlerfrei zu machen.
 labels: 'bug'
 body:
 - type: markdown
   attributes:
     value: |
-      Thanks for taking the time to fill out this bug report! Please answer a few questions to make us understand the bug.
-      Please make sure that your using the newest version of this plugin and QGIS Version 3.16 or later.
+      Vielen Dank, dass Sie sich die Zeit nehmen, diesen Fehlerbericht auszufüllen! Bitte beantworten Sie ein paar Fragen, damit wir den Fehler besser verstehen.
+      Bitte stellen Sie sicher, dass Sie die neueste Version des Programms benutzen und auch ggf. alle Abhängigkeiten installiert haben (z.B. Greenfoot vX.X.X).
 - type: textarea
   id: bug-desc
   attributes:
-    label: Describe the bug
-    description: Describe how the bug looks like. Also paste error messages and exceptions to give us technical information.
+    label: Fehlerbeschreibung
+    description: Beschreiben Sie, wie der Fehler aussieht. Bitte fügen Sie auch Fehlermeldungen und Exceptions ein, um uns technische Informationen zu geben. Fügen Sie hier auch Screenshots ein.
   validations:
     required: true
 - type: textarea
   id: repro
   attributes:
-    label: Reproduction steps
-    description: How do you trigger this bug? Please walk us through it step by step.
+    label: Reproduktionsschritte
+    description: |
+      Wodurch haben Sie den Fehler ausgelöst? Bitte teilen Sie uns Schritt für Schritt mit, was Sie gemacht haben, als / bevor der Fehler ausgelöst wurde.
+      Dadurch können wir den Fehler selbst auslösen und ihn mit unseren Tools auseinandernehmen.
     value: |
       1.
       2.
       3.
       ...
-- type: textarea
-  id: expection
-  attributes:
-    label: Expected behavior
-    description: Describe what you expected to happen
 - type: markdown
   attributes:
-    value: '### System information'
+    value: '### Systeminformationen'
 - type: input
   id: os
   attributes:
-    label: OS
-    description: Please submit us your OS with version number
-    placeholder: "Windows 10, Ubuntu 18.04, ..."
+    label: Betriebssystem
+    description: Bitte teilen Sie uns Ihr Betriebssystem mit. Geben Sie dabei auch die Versionsnummer an.
+    placeholder: Windows 10, Ubuntu 21.04, ...
   validations:
     required: true
 - type: input
-  id: qgis-version
+  id: greenfoot-version
   attributes:
-    label: QGIS Version
-    description: "Please enter your QGIS Version. Note: Only QGIS 3.16 and later are supported by this plugin."
-    placeholder: "3.20.0, ..."
+    label: Greenfoot-Version
+    description: Bitte geben Sie Ihre Greenfoot-Version an.
   validations:
     required: true
+- type: markdown
+  attributes:
+    value: |
+      Das wars auch schon! Ihr Fehlerbericht wird nach dem absenden in kürze von uns bearbeitet.
