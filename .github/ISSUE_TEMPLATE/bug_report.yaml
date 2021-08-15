@@ -7,6 +7,7 @@ body:
     value: |
       Vielen Dank, dass Sie sich die Zeit nehmen, diesen Fehlerbericht auszufüllen! Bitte beantworten Sie ein paar Fragen, damit wir den Fehler besser verstehen.
       Bitte stellen Sie sicher, dass Sie die neueste Version des Programms benutzen und auch ggf. alle Abhängigkeiten installiert haben (z.B. Greenfoot vX.X.X).
+      Außerdem sollten Sie [hier](https://github.com/bennetrr/CovidSimulation/issues) nachgucken, ob nicht schon jemand anderes diesen oder einen dazugehörigen Fehler gemeldet hat.
 - type: textarea
   id: bug-desc
   attributes:
