@@ -1,5 +1,6 @@
 name: Funktion vorschlagen
 description: Schlagen Sie eine Funktion für dieses Programm vor.
+assignees: bennetrr
 labels: 'feature'
 body:
 - type: markdown
