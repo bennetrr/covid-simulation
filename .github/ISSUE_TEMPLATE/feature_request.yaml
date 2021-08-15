@@ -7,7 +7,7 @@ body:
   attributes:
     value: |
       Vielen Dank, dass Sie sich die Zeit nehmen, dieses Formular auszufüllen! Bitte beantworten Sie ein paar Fragen, damit wir wissen, was Sie in diesem Programm haben möchten.
-      Bitte gucken Sie nach, ob die gewünste Version schon in der neusten Version des Programms enthalten ist oder [hier](https://github.com/bennetrr/CovidSimulation/issues?q=is%3Aissue+label%3Afeature) schon vorgeschlagen wurde.
+      Bitte gucken Sie nach, ob die gewünste Funktion schon in der neusten Version des Programms enthalten ist oder [hier](https://github.com/bennetrr/CovidSimulation/issues?q=is%3Aissue+label%3Afeature) schon vorgeschlagen wurde.
 - type: textarea
   id: feature-desc
   attributes:
