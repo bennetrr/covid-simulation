@@ -1,3 +1,6 @@
+# Information
+Dieses Projekt wird nicht mehr weiterentwickelt und auch nicht mehr gewartet!
+
 # CovidSimulation
 Dieses Programm simuliert den Verlauf einer Covid-Ansteckungswelle.
 
@@ -175,4 +178,4 @@ Außerdem gibt es eine Meldung im Terminalfenster, wenn eine Person infiziert od
 
 ## Schlusswort
 Mit dieser Simulation lässt sich der Einfluss der unterschiedlichen Parameter, wie z. B. Alter, Inkubationszeit und Infektionsschutzmaßnahmen, auf den Verlauf der Pandemie untersuchen. Man kann auch das Projekt zwei mal nebeneinander starten (dazu einfach den Ordner mit dem Projekt kopieren und in Greenfoot öffnen) und die Verläufe vergleichen.
-Die Simulation wurde im Rahmen des Informatikunterrichts in der Schule programmiert. Wenn Sie einen Fehler bei der Simulation feststellen, können Sie ihn gerne hier bei GitHub im Issue Tracker melden. Gleiches gilt auch für Funktionsvorschläge. Aber nein, eine Config-UI wird es nicht geben :D
+Die Simulation wurde im Rahmen des Informatikunterrichts in der Schule programmiert.
