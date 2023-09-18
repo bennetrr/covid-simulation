@@ -1,5 +1,5 @@
-# Information
-Dieses Projekt wird nicht mehr weiterentwickelt und auch nicht mehr gewartet!
+> [!WARNING]
+> Dieses Projekt ist archiviert und wird nicht mehr weiterentwickelt.
 
 # CovidSimulation
 Dieses Programm simuliert den Verlauf einer Covid-Ansteckungswelle.
@@ -16,12 +16,12 @@ In Greenfoot ist in der Mitte das Fenster, in dem die Simulation ausgeführt wir
 ### Konfiguration
 Um die Konfiguration zu öffnen, müssen Sie auf die Config-Schaltfläche unten rechts (grün umrandet) doppelklicken. Dann öffnet sich ein Texteditor, in dem Sie die Einstellungen und Parameter für die Simulation bearbeiten können.
 
-> WARNUNG!
+> [!WARNING]
 > Achten Sie darauf, dass Sie keine falschen Werte eintragen oder Sachen löschen, die nicht gelöscht werden sollen!
 
 Ein Eintrag in der Konfiguration sieht zum Beispiel so aus:
 
-```
+```java
 // The height of the world (default: 500)
 public static final int WORLD_HEIGHT = 500;
 ```
@@ -29,7 +29,7 @@ Ein Eintrag besteht aus einer kurzen Beschreibung und einem Standartwert (`//The
 Datunter wird der Eintrag festgelegt. Wichtig dabei ist nur der Eigenschaftsname (`WORLD_HEIGHT`) und der Wert (`500`).<br>
 Nur der Wert darf geändert werden. Der Rest gehört mit zum System **und darf nicht geändert oder gelöscht werden**.
 
-> WARNUNG!
+> [!WARNING]
 > Achten Sie darauf, dass Sie bei Zahlen, die im Standardwert als Kommazahlen angegeben sind, `.0` anhängen, auch wenn die Zahl keine Nachkommastelle hat. Außerdem muss statt einem Dezimalkomma einen Dezimalpunkt verwendet werden!
 
 #### Abschnitt: Spawning
