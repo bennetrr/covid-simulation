@@ -2,7 +2,7 @@
 > Dieses Projekt ist archiviert und wird nicht mehr weiterentwickelt.
 
 # CovidSimulation
-Dieses Programm simuliert den Verlauf einer Covid-Ansteckungswelle.
+Dieses Programm simuliert den Verlauf einer COVID-19-Ansteckungswelle.
 
 ## Installation
 Als erstes muss Greenfoot (<https://www.greenfoot.org/download>) installiert werden. Laden Sie dann die gfar-Datei aus den Releases (<https://github.com/bennetrr/CovidSimulation/releases>) herunter. Wenn Sie Greenfoot installiert haben, können sie einfach die Datei öffnen. Dann öffnet sich die Simulation in Greenfoot.
